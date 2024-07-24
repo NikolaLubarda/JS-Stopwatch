@@ -1,5 +1,5 @@
 # JS-Stopwatch
 
-[View the project](https://NikolaLubarda.github.io/JS-Stopwatch)
+[JS- Vanilla Stopwatch](https://NikolaLubarda.github.io/JS-Stopwatch)
 
 
