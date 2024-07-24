@@ -1,0 +1,79 @@
+body {
+  background-color: #45abba;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    sans-serif;
+  height: 100%;
+  text-align: center;
+}
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color: aliceblue;
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+#seconds,
+#tens {
+  font-size: 3.5em;
+}
+button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: #45abba;
+  color: aliceblue;
+  border: solid 1px aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 18px 10px;
+  width: 200px;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+
+  outline: none;
+  :hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: aliceblue;
+    border: solid 1px aliceblue;
+    color: #45abba;
+  }
+}
+.minutesekunde {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.buttondiv {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  flex-direction: row-reverse;
+}
